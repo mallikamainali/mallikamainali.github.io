@@ -68,13 +68,13 @@ nav {
   
   .nav-links a:hover:not(.active) {
   
-    background-color: rgb(227, 213, 90);
+    background-color: rgb(218, 191, 155);
   
   }
   
   .nav-links li a.active {
   
-    background-color: #4d4d40;
+    background-color: rgb(126, 110, 89)
   
   }
 
