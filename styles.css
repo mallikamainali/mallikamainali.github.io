@@ -16,7 +16,7 @@ nav {
   
     min-height: 8vh;
   
-    background-color: rgb(245, 197, 134);
+    background-color: rgb(156, 133, 102);
   
     font-family: "Montserrat", sans-serif;
   
@@ -74,7 +74,7 @@ nav {
   
   .nav-links li a.active {
   
-    background-color: #ebecd1;
+    background-color: #4d4d40;
   
   }
 
