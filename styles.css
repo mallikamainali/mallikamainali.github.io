@@ -6,29 +6,75 @@ h3 {
     text-align: center;
 }
 
-.topnav {
-    background-color: rgb(244, 189, 117);
-    overflow: hidden;
+nav {
+
+    display: flex;
+  
+    justify-content: space-around;
+  
+    align-items: center;
+  
+    min-height: 8vh;
+  
+    background-color: rgb(224, 238, 122);
+  
+    font-family: "Montserrat", sans-serif;
+  
   }
   
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: left;
-    color: #eee7d2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
+  .heading {
   
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: #eee7d2;
-    color: black;
-  }
-  
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: #d7d4af;
     color: white;
+  
+    text-transform: uppercase;
+  
+    letter-spacing: 5px;
+  
+    font-size: 20px;
+  
   }
+  
+  .nav-links {
+  
+    display: flex;
+  
+    justify-content: space-around;
+  
+    width: 30%;
+  
+  }
+  
+  .nav-links li {
+  
+    list-style: none;
+  
+  }
+  
+  .nav-links a {
+  
+    color: white;
+  
+    text-decoration: none;
+  
+    letter-spacing: 3px;
+  
+    font-weight: bold;
+  
+    font-size: 14px;
+  
+    padding: 14px 16px;
+  
+  }
+  
+  .nav-links a:hover:not(.active) {
+  
+    background-color: rgb(227, 213, 90);
+  
+  }
+  
+  .nav-links li a.active {
+  
+    background-color: #ebecd1;
+  
+  }
+
